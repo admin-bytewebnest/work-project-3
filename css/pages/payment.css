@@ -1,0 +1,12 @@
+#payment main {
+  margin-top: 255px;
+}
+#payment .information {
+  margin-bottom: 15px;
+}
+#payment .information__link,
+#payment .information__title {
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=payment.css.map */

@@ -1,0 +1,17 @@
+#basket {
+    main {
+        margin-top: 255px;
+    }
+}
+
+.information {
+    &__title {
+        text-transform: uppercase;
+    }
+}
+
+// body:has(.basket-empty) .footer {
+//     position: absolute;
+//     bottom: -200px;
+//     width: 100%;
+// }

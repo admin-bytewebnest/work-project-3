@@ -1,0 +1,131 @@
+.basket {
+    &-titles {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    grid-template-columns: 586px 360px 353px 1fr;
+    height: 22px;
+
+    &__title {
+        color: rgba(216, 216, 216, 1);
+        font-family: "Poppins";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 120%;
+        letter-spacing: 0%;
+        }
+    }
+    &__line--top {
+        margin-bottom: 30px;
+    }
+}
+
+.basket-cards {
+
+    &__track {
+        display: grid;
+        grid-template-columns: 200px 386px 360px 180px 1fr;
+        grid-template-rows: 220px;
+        border-bottom: solid 1px rgba(216, 216, 216, 0.5);
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+    }
+
+    &__image {
+        // height: 100%;
+
+    }
+
+    &__img {
+        width: 200px;
+        height: 200px;
+    }
+
+    &__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(30, 30, 30, 1);
+        margin-bottom: 20px;
+        border-radius: 20px;
+        width: 200px;
+        height: 220px;
+    }
+
+    &__title {
+        max-width: 270px;
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    &__price {
+        font-weight: 600;
+        margin-top: 37px;
+        font-size: 18px;
+    }
+
+    &__calc {
+        margin-top: 14px;
+    }
+
+    &__price--close {
+        position: relative;
+        top: 0;
+        max-width: 100px;
+        margin-left: auto;
+        text-align: end;
+    }
+
+    &__quantity {
+        width: 200px;
+    }
+
+    &__total {
+        
+    }
+
+    &__close {
+        position: absolute;
+        top: -14px;
+        right: -45.51px;
+        cursor: pointer;
+        padding: 10px;
+    }
+}
+
+.basket-subtotal {
+    display: flex;
+    justify-content: end;
+    gap: 225px;
+    margin-bottom: 50px;
+
+    &__item {
+
+    }
+
+    &__subtitle {
+
+    }
+
+    &__price {
+        text-align: end;
+    }
+}
+
+.subtotal-subtitle,
+.subtotal-price {
+    font-size: 18px;
+    line-height: 120%;
+    width: 87px;
+}
+
+.subtotal-subtitle {
+    font-weight: 500;
+}
+
+.subtotal-price {
+    font-weight: 600;
+}
+

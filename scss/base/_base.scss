@@ -1,0 +1,36 @@
+// Файл глобальных стилей
+html,
+body {
+    scrollbar-width: none;
+    scrollbar-gutter: auto;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #131313;
+    color: white;
+}
+
+html::--webkit-scrollbar,
+body::--webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+a {
+    color: inherit; //Наследовать цвет родителя
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+    background-color: rgba(216, 216, 216, 0.5);
+}
+
+.container {
+    max-width: 1385px; //Ширина контейнера
+    //height: 100%;
+    margin: 0 auto; //Внешний отступ
+    padding: 0 20px;
+}

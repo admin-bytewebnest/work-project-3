@@ -1,0 +1,83 @@
+.payment-form {
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    grid-template-areas: 
+    "date product"
+    "btns .";
+    margin-bottom: 120px;
+    min-height: 690px;
+    
+    &__item {
+    
+    }
+
+    &__date {
+        grid-area: date;
+    }
+
+    &__product {
+        grid-area: product;
+    }
+
+    &__btns {
+        grid-area: btns;
+    }
+}
+
+.form-date {
+
+
+    &__group {
+
+    }
+
+    &__legend {
+        margin-bottom: 15px;
+        color: rgba(255, 255, 255, 1);
+        font-family: "Poppins", sans-serif;
+        font-style: semiBold;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    &__users-dates {
+        display: grid;
+        grid-template-columns: repeat(2, 273px);
+        grid-template-rows: repeat(2, 67px);
+        gap: 20px;
+    }
+
+    &__user-date {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    &__name {
+        color: rgba(216, 216, 216, 1);
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        line-height: 18px;
+        text-transform: capitalize;
+    }
+
+    &__input {
+        height: 45px;
+        font-size: 22px;
+        padding: 0 5px;
+        background-color: transparent;
+        outline: solid 1px white;
+        border: 0;
+        color: white;
+    }
+
+}
+
+.form-product {
+
+}
+
+.form-btns {
+
+}
